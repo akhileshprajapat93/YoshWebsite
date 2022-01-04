@@ -1,0 +1,616 @@
+/* Font Link */
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Raleway'; 
+}
+
+/* Header */
+/* login form */
+.formBtn{
+    border: none;
+    color: #3552AD;
+    box-shadow: 9px 2px 5px #ff4a3f;
+    padding: 5px 19px;
+    border-radius: 21px;
+}
+
+/* navbar */
+.navbar .navbar-nav .nav-link {
+  color: #707070;
+  font-size: 1.1em;
+  position: relative;
+  font-weight: 900;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #707070;
+}
+.navbar .navbar-nav .nav-link::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: linear-gradient(to right, #ff4642 , #fe086e);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  color: transparent;
+  width: 0%;
+  content: '.';
+  height: 3px;
+}
+.navbar .navbar-nav .nav-link:hover::after {
+  width: 100%;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+.nav li{
+    color:#707070;
+}
+.mainH1{
+    /* font-family: 'Raleway'; */
+    font-weight: 700;
+}
+.loginBtn{   
+    background: #E4EBFF;
+    border: none;
+    padding: 6px 29px;
+    color: #3552AD;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.signBtn{
+    background: #F2F2F2;
+    border: none;
+    padding: 6px 29px;
+    border-radius: 10px;
+    color:#707070;
+    margin-left: 13px;
+}
+/* Main Screen */
+.main{
+    height: 100%;
+}
+.homeRow{
+    margin-top: 90px;
+}
+.app{
+    margin-top: 50px;
+}
+.tryYosh{
+    background-image: linear-gradient(to right, #ff4642 , #fe086e);
+    padding: 8px 130px;
+    border-radius: 12px;
+    color: white !important;
+    font-size: 30px;
+    text-decoration: none;
+}
+.main-heading p{        
+    font-weight: 800;
+}
+/* what is yosh */
+.aboutYosh{
+    margin-top: 100px;
+    padding: 45px;
+    background: #F5F9FF;
+    margin-bottom: 50px;
+}
+.yoshH1{
+    position: relative;
+}
+.yoshH1::before {
+    content: "";
+    position: absolute;
+    width: 178px;
+    background-image: linear-gradient(to right, #ff4642 , #fe086e);
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 4px;
+    margin: auto;
+}
+.tryYosh1{
+   background-image: linear-gradient(to right, #ff4642 , #fe086e);
+    padding: 7px 54px!important;
+    border-radius: 11px;
+    color: white !important;
+    font-size: 27px;
+    text-decoration: none;
+}
+.aboutImg{
+    width: 500px;
+    margin-left: 119px;
+}
+
+/* B2B Services */
+.b2bServices{
+    height: 100vh;
+}
+
+.B2BH1{
+    position: relative;
+}
+.B2BH1::before{
+    content: "";
+    position: absolute;
+    width: 196px;
+     background-image: linear-gradient(to right, #ff4642 , #fe086e);
+    top: 54px;
+    margin: auto;
+    left:0;
+    bottom: 0;
+    right: 0;
+    height: 4px;
+    justify-content: center;
+
+}
+.busniess{
+    margin-left: 90px;
+}
+.b2bH5,.b2bH52{
+    position: relative;
+}
+.b2bH5::before{
+    content: "";
+    position: absolute;
+    width: 196px;
+    background: rgb(255, 74, 63);
+    top:26px;
+    text-align: center;
+    left: 166px;
+    bottom: 0px;
+    height: 4px;
+    justify-content: center;
+}
+.b2bH52::before{
+    content: "";
+    position: absolute;
+    width: 150px;
+    background: rgb(255, 74, 63);
+    top:26px;
+    text-align: center;
+    left: 190px;
+    bottom: 0px;
+    height: 4px;
+    justify-content: center;
+}
+.knowMore1{
+    border: 2px solid #FE2756;
+    padding: 12px 97px;
+    border-radius: 35px;
+    color: #FE2756 !important;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px;
+
+}
+.knowMore2{
+    border: 2px solid #FE2756;
+    padding: 12px 97px;
+    border-radius: 35px;
+    color: #FE2756 !important;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px;
+
+}
+.appknow{
+    margin-top: 90px;
+
+}
+
+/* How it work */
+.work{
+    height: 100vh;
+    background-color: #F9F9F9;
+}
+.workH1{
+    position: relative;
+}
+.workH1::before{
+     content: "";
+    position: absolute;
+    width: 196px;
+    background: rgb(255, 74, 63);
+    top:26px;
+    text-align: center;
+    left: 166px;
+    bottom: 0px;
+    height: 4px;
+    justify-content: center;
+}
+.box1 {
+    background: white;
+    height: 373px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 70px;
+
+}
+.workPara{
+    background: #FF4940;
+    width: 55px;
+    border-radius: 37px;
+    height: 56px;
+    color: white;
+    /* position: relative; */
+    top: -25px;
+    display: block;
+    margin: auto;
+    margin-top: -26px;
+
+}
+.h1Para{
+    font-size:14px ;
+}
+.workP{
+    font-size: 30px;
+}
+.workBtn1{
+    background: #FF4940;
+    padding: 9px 63px;
+    color: white !important;
+    text-decoration: none;
+    box-shadow: 1px 1px 9px #ff4940;
+        font-weight: 500;
+        border-radius: 48px;
+
+}
+.workBtn2{
+    background: #40FF53;
+    padding: 9px 63px;
+    color: white !important;
+    text-decoration: none;
+    box-shadow: 1px 1px 9px #40FF53;
+    font-weight: 500;
+        border-radius: 48px;
+
+
+}
+.workBtn3{
+    background: #FF00DF;
+    padding: 9px 63px;
+    color: white !important;
+    text-decoration: none;
+    box-shadow: 1px 1px 9px #FF00DF;
+    font-weight: 500;
+    border-radius: 48px;
+}
+
+/* Make money with us */
+.money{
+    margin-top: 50px;
+    height: 100vh;
+}
+.moneyH1{
+ position: relative;
+}
+.moneyH1::before{
+    content: "";
+    position: absolute;
+    width: 196px;
+    background: rgb(255, 74, 63);
+    top: 54px;
+    text-align: center;
+    left: 463px;
+    bottom: 0px;
+    height: 4px;
+    justify-content: center;
+ 
+}
+.listYosh{
+    background: #E59F72;
+    padding: 14px 56px;
+    border-radius: 43px;
+    color: white !important;
+    font-size: 23px;
+    text-decoration: none;
+}
+.moneyImage{
+    margin-left: 154px;
+}
+.refer-section{
+    text-align: right;
+}
+.reffer-btn button{
+        outline: none;
+    border-radius: 11px;
+    padding: 7px 129px;
+    background: red;
+    color: #fff;
+    border: none;
+    background: #FF00DF;
+    box-shadow: 1px 1px 9px #FF00DF;
+}
+.referBtn{
+    background: #FF00DF;
+    box-shadow: 1px 1px 9px #FF00DF;
+    padding: 7px 32px;
+    border-radius: 11px;
+    color: white !important;
+    font-size: 27px;
+    text-decoration: none;
+}
+.referApp{
+    margin-left:178px;
+}
+/* Look , What our Clients say about Us ! */
+.client{
+    
+    height: 100vh;
+    background-color: #F9F9F9;
+}
+.clientH1{
+    margin: 50px;
+    position: relative;
+}
+.clientH1::before{
+  
+        content: "";
+        position: absolute;
+        width: 196px;
+        background: rgb(255, 74, 63);
+        top: 54px;
+        text-align: center;
+        left: 463px;
+        bottom: 0px;
+        height: 4px;
+        justify-content: center;
+     
+
+}
+.msgBox{
+    margin-top: 20px;
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin-left: 100px;
+    display: flex;
+    border-radius: 30px;
+    flex-direction: column;
+    
+}
+.msgBox img{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 70px;
+    height: 50px;
+    
+}
+.clientName{
+    color: #707070;
+    font-weight: 500;
+    margin-left: 115px;
+    margin-top: -49px;
+}
+.clientDescription{
+    color: #707070;
+    margin-left: 111px;
+    font-size: 14px;
+    margin-top: -21px;
+}
+.clientSay{
+    color: #707070;
+    margin-left: 110px;
+}
+
+/* <!-- We keep you Educated !! --> */
+.educated{
+    margin-top: 20px;
+    height: 100vh;
+}
+.educatedH1{
+    position: relative;
+}
+.educatedH1::before{
+    content: "";
+    position: absolute;
+    width: 196px;
+    background: rgb(255, 74, 63);
+    top: 54px;
+    text-align: center;
+    left: 463px;
+    bottom: 0px;
+    height: 4px;
+    justify-content: center;
+}
+
+.newsBtn{
+    background: #F9F5E5;
+    padding: 12px 36px;
+    border-radius: 30px;
+    color: #887D53 !important;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+}
+.home8Img{
+    margin-left: 63px;
+}
+.bookPara{
+    margin-top: -30px;
+    width: 229px;
+    margin-left: 40px;
+    color: #2C2C2C;
+}
+.bookDiv2{
+    text-align: right;
+}
+.bookPara2{
+    margin-top: -30px;
+    width: 229px;
+    text-align: end;
+    color: #2C2C2C;
+    margin-left: 399px;
+}
+.team{
+    margin-top: 130px;
+   
+}
+.teamImg{
+    /* background: #B8BED3; */
+width: 863px;
+}
+
+/* ******************************** */
+/* About Page */
+/* ******************************** */
+
+.aboutMain{
+    height: 100vh;
+}
+.aboutCol{
+    margin-top: 90px;
+}
+
+/* Our journey */
+.journey{
+    margin-top: 50px;
+    height: 100vh;
+    background: #F9F9F9;
+}
+.journeyH1{
+    position: relative;
+}
+.journeyH1::before{
+    content: "";
+    position: absolute;
+    width: 196px;
+    background: rgb(255, 74, 63);
+    top: 54px;
+    text-align: center;
+    left: 463px;
+    bottom: 0px;
+    height: 4px;
+    justify-content: center;
+}
+.check{
+    width: 20px;
+    margin-left: -20px;
+    
+}
+/* Out Mission */
+.mission{
+    height: 100vh;
+}
+.missionH1{
+    position: relative;
+    color: #6D7590;
+    
+}
+.missionH1::before{
+    content: "";
+    position: absolute;
+    width: 186px;
+    background: rgb(255, 74, 63);
+    top: 54px;
+    text-align: center;
+    left: 463px;
+    bottom: 0px;
+    height: 4px;
+    justify-content: center;
+}
+.missionPara p{
+    font-weight: 500;
+
+}
+.missionRow{
+    margin-top: 120px;
+}
+.roket img{
+    margin-left: 150px;
+}
+
+/* Our Vision */
+.vision{
+    height: 100vh;
+    background: #F9F9F9;
+}
+.visionH1{
+    position: relative;
+}
+.visionH1::before{
+    content: "";
+    position: absolute;
+    width: 186px;
+    background: rgb(255, 74, 63);
+    top: 54px;
+    text-align: center;
+    left: 463px;
+    bottom: 0px;
+    height: 4px;
+    justify-content: center;
+}
+.visionPara p{
+    font-weight: 500;
+    width: 500px;
+}
+
+/* ****************************** */
+/* download Page */
+/* ************************************ */
+
+.download{
+    height: 100vh;
+}
+.downloadCol{
+    margin-top: 100px;
+}
+.downloadCol p{
+    font-weight: 500;
+
+
+}
+
+/* Yosh function page */
+.navbar1{
+    background: #FE066E;
+}
+.inputSearch{
+    width: 470px;
+}
+.icon{
+    margin-left: -36px;
+    margin-top: 12px;
+}
+.postBtn{
+    text-decoration: none;
+    color: white !important;
+    font-weight: 500;
+    background: #F82465;
+    border-radius: 20px;
+    padding: 4px 23px;
+    box-shadow: 1px 1px 10px pink;
+    margin-right: 57px;
+}
+.userIcon{
+
+    border-radius: 47px;
+    padding: 6px;
+    width: 50px;
+    background: white;
+
+}
+
+/* Footer */
+.footerBtn{
+    background: #FCFCFC;
+    border-radius: 10px;
+    padding: 5px 60px;
+    text-align: center;
+    border: 2px solid #9F9FDB;
+   
+    display: block;
+    margin: 12px auto;
+}
+.footerGirl{
+    margin-top:120px
+}
+.footerPara{
+    background: #838FB5;
+    /* background: red; */
+}

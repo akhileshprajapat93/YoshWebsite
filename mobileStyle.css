@@ -1,0 +1,739 @@
+/* 1024 */
+@media (max-width:1024px) {
+    
+    /* Home Page */
+    .yoshH1::before {   
+    left:369px;
+    }
+    .B2BH1::before {
+        left: 376px;
+    }
+    .b2bH5::before{
+        left: 122px;
+    }
+    .b2bH52::before{
+        left: 152px;
+    }
+    .box1{
+        margin-left: 18px;
+    }
+    .moneyH1::before {
+        left: 362px;
+    }    
+    .listYosh {
+        padding: 14px 27px;
+    }
+    .aboutImg {
+        width: 458px;
+    }
+    .moneyImage {
+         margin-left: 0;
+    }
+    .moneyImage2{
+        width: 377px;
+    }
+    .reffer-btn button{
+        padding: 12px 93px;
+    }
+    .referBtn {
+        
+        padding: 7px 26px;
+    }  
+    .clientH1::before {
+       
+        left: 317px;
+    }  
+    .home6{
+        width: 400px;
+    }
+    .msgBox {
+       
+        margin-left: 31px;
+    }  
+    .client {
+        height: 100%;
+    }
+    .educatedH1::before {
+        left: 365px;
+    }
+    .home7{
+        width: 358px;
+    }
+    .bookdiv h2{
+        font-size:22px;
+    }
+    .newsBtn {
+        background: #F9F5E5;
+        padding: 12px 57px;
+    }
+    .bookDiv2 h2{
+        font-size:22px;
+    }
+    .bookPara2 {
+        
+        margin-left: 306px;
+    }
+    .team{
+        margin-top: 255px;
+    }
+    .footerGirl img{
+        width: 252px;
+        margin-top: 91px;
+    }
+    .footerBtn {
+        padding: 5px 12px;
+    }
+    
+    /*About page*/
+    .journeyH1::before {
+    width: 152px;
+    top: 47px;
+    left: 396px;
+    }
+    .missionH1::before {
+    width: 156px;
+    top: 45px;
+    left: 398px;
+    }
+    .roket img {
+    margin-left: 48px;
+    }
+    .build{
+    width: 377px;
+    margin-left: -31px;
+    }
+    .visionH1::before {
+     width: 144px;
+    top: 47px;
+    left: 396px;
+    }
+}
+
+/* 768 */
+
+@media (max-width:768px) {
+    .footerGirl{
+        display:none;
+    }
+   
+    .tryYosh {
+        padding: 7px 78px;
+    }
+    .home1{
+        width: 372px;
+        margin-left: -44px;
+    }
+    .yoshH1::before {
+        left: 0px;
+        width: 150px;
+    }
+    .aboutYosh {
+       
+        height: 100%;
+    }    
+    .aboutImg {
+        width: 450px;
+        margin-left: -31px;
+    }
+    .tryYosh1 {
+        padding: 3px 66px;
+    }    
+    .B2BH1::before {
+        left: 253px;
+    }
+    .b2bH5::before {
+        left: 60px;
+    }
+    .b2bH52::before {
+        left: 88px;
+    }
+    .work {
+        height: 100%;
+    }
+    .box3{
+        margin-left:174px;
+        margin-top: 40px;
+    }     
+    .moneyH1::before {
+        left: 240px;
+    }       
+    .listYosh {
+        padding: 9px 21px;
+        font-size: 18px;
+    }
+    .moneyImage {
+        margin-left: -119px;
+    }
+    .moneyImage2 {
+        width: 333px;
+        margin-top: 56px;
+    }
+    .referBtn {
+        padding: 7px 9px;
+        font-size: 16px;
+    }
+    .clientH1::before {
+        left: 213px;
+    }
+    .home6 {
+        width: 400px;
+        margin-left: -37px;
+    }
+    .msgBox {
+        margin-left: 23px;
+        font-size: 14px;
+        width: 366px;
+        height: 200px;
+    }   
+    .educatedH1::before {
+        left: 253px;
+    }
+    .home7{
+        margin-left: -31px;
+    } 
+    .newsBtn {
+        background: #F9F5E5;
+        padding: 12px 17px;
+        font-size: 20px;
+    }
+    .newGirl{
+        margin-left: -266px;
+    }
+    .bookDiv2{
+        text-align: unset;
+    }
+    .bookPara2 {
+        margin-left: -120px;
+    }
+    .teamImg {
+        width: 659px;
+    }
+    .teamH2{
+        margin-top: 61px;
+    }
+    .fontSmall{
+        font-size: 14px;
+    }
+    /*About us*/
+    .build {
+    width: 377px;
+    margin-left: -94px;
+    }
+    .journeyH1::before {
+    width: 141px;
+    top: 41px;
+    left: 274px;
+}
+.journeyImage{
+        width: 315px;
+    margin-top: 80px;
+}
+.missionH1::before {
+    width: 156px;
+    top: 45px;
+    left: 274px;
+}
+.roket img {
+    margin-left: -29px;
+}
+.visionH1::before {
+    width: 144px;
+    top: 47px;
+    left: 280px;
+}
+.visionPara p {
+    width: 403px;
+}
+.statImge{
+    margin-left:-28px;
+}
+.vision {
+    height: 100%;
+}
+}
+
+/* 425 */
+@media (max-width:425px) {
+ footer{
+            margin-top: 185px;
+    }
+    .tryYosh{
+        margin-left: 32px;
+    }
+    .home1 {
+        width: 329px;
+        margin-left: 24px;
+    }
+    .yoshH1::before {
+        left: 121px;
+        width: 150px;
+        top: 38px;
+    }    
+    .footerGirl img{
+        display: none;
+    }
+    .tryYosh1{
+        display: block;
+    margin: auto;
+    text-align: center;
+    }
+    .aboutImg {
+        width: 377px;
+        margin-left: 20px;
+    }
+    .B2BH1::before {
+        left: 118px;
+        width: 170px;
+        top: 39px;
+    }
+    .b2bH5::before {
+        left: 94px;
+    }
+    .b2bH52::before {
+        left: 113px;
+    }
+    .appknow {
+        margin-top: 28px;
+    }
+    .b2bH52{
+        margin-top: 50px;
+    } 
+    .work{
+        margin-top:  275px;
+    }
+    .box1{
+        margin-bottom: 70px;
+    margin-left: 61px;
+
+    }
+    .box3{
+        margin-top: 12px;
+    margin-left: 61px;
+
+    }
+    .moneyH1::before {
+        left: 99px;
+        top: 39px;
+    }
+    .moneyImage{
+        margin-top: -94px;
+        margin-left: -95px;
+    }
+    .moneyH5{
+        margin-top:-612px;
+    }
+    .moneyImage2 {
+        width: 333px;
+        margin-top: 546px;
+        margin-left: 57px;
+    }
+    .moneyPara{
+        font-size: 14px;
+    }
+    .clientH1{
+        font-size :22px;
+    }
+    .clientH1::before {
+       width: 0;
+    }
+    .msgBox {
+        margin-left: -5px;
+        width: 411px;
+        height: 200px;
+    }
+    .educatedH1::before {
+        left: 112px;
+        top: 41px;
+    }
+    .home7{
+        margin-left: 0;
+        width: 400px;
+        margin-top: -95px;
+            margin-bottom: -103px;
+    }    
+    .team {
+        margin-top: 491px;
+        margin-bottom: -161px;
+    }
+    .bookDiv2 {
+        text-align: end;
+    }
+    .bookPara2{
+        margin-left: 56px;
+    width: 299px;
+    margin-top: 13px;
+    }
+    
+    .teamImg {
+        width: 358px;
+    }
+    .clientSay{
+        width: 284px;
+       
+    }
+    .msgBox {
+        margin-left: -5px;
+        width: 404px;
+    }   
+    /*About page*/
+    .build {
+    width: 377px;
+    margin-left: 6px;
+    }
+    .journey {
+    margin-top: 170px;
+    }
+    .journeyH1::before {
+    width: 127px;
+    top: 41px;
+    left: 139px;
+}
+.journeyImage {
+    width: 315px;
+    margin-top: -6px;
+    margin-left: 48px;
+}
+.journey {
+    margin-top: 170px;
+    height: 100%;
+}
+.missionH1::before {
+    width: 120px;
+    top: 36px;
+    left: 144px;
+}
+.mission {
+    height: 100%;
+    margin-top: 70px;
+}
+
+.roket img {
+    margin-left: 50px;
+}
+.visionH1::before {
+    width: 114px;
+    top: 37px;
+    left: 148px;
+}
+.statImge{
+    margin-left: 24px;
+}
+.visionPara p {
+    width: 378px;
+}
+.missionRow {
+    margin-top: 31px;
+}
+.missionPara p {
+    margin-top: 1px;
+}
+.check {
+    width: 15px;
+    margin-left: -2px;
+}
+}
+/* 375 */
+@media (max-width: 375px){
+.tryYosh {
+    margin-left: 28px;
+}
+.home1 {
+    width: 318px;
+    margin-left: 13px;
+}
+.yoshH1::before {
+    left: 3px;
+    width: 126px;
+    top: 48px;
+}
+.tryYosh1 {
+    
+    padding: 5px 6px!important;
+}
+.aboutImg {
+    width: 330px;
+}
+.B2BH1::before {
+    left: 96px;
+}
+.b2bH5::before {
+    left: 67px;
+}
+.b2bH52::before {
+    left: 92px;
+}
+.box1 {
+    margin-left: 39px;
+}
+.moneyH1::before {
+    left: 81px;
+}
+
+.moneyH5 {
+    margin-top: -636px;
+    font-size: 18px;
+}
+.moneyPara {
+    font-size: 13px;
+}
+.reffer-btn button {
+    padding: 9px 67px;}
+.referApp {
+    margin-left: 143px;
+}
+.moneyImage {
+       margin-top: -44px;
+    margin-left: -38px;
+    width: 340px;
+}
+.moneyH5 {    
+    margin-top: -631px;
+}
+.moneyPara {
+    font-size: 12px;
+}
+.moneyImage2 {
+    width: 278px;
+    margin-top: 442px;
+    margin-left: 10px;
+}
+.msgBox {
+    margin-left: -5px;
+    width: 331px;
+}
+.clientSay {
+    width: 331px;
+    margin-left: 5px;
+}
+.msgBox img {
+    width: 54px;
+}
+.educatedH1::before {
+    left: 78px;
+}
+.home7 {
+    width: 334px;
+    margin-top: -57px;
+    margin-bottom: -84px;
+}
+.home8Img {
+    margin-left: 11px;
+}
+.newsBtn {
+    background: #F9F5E5;
+    padding: 5px 8px;
+    font-size: 16px;
+}
+.bookPara2 {
+    margin-left: 23px;
+    width: 303px;
+}
+.teamImg {
+    width: 305px;
+}
+ /*About page*/
+ .build {
+    width: 317px;
+}
+.journeyH1::before {
+    left: 113px;
+}
+.journeyImage {
+    width: 245px;
+    margin-top: -6px;
+    margin-left: 47px;
+}
+.missionH1::before {
+    left: 115px;
+}
+.roket img {
+    margin-left: 14px;
+}
+.visionH1::before {
+    left: 123px;
+}
+.statImge {
+    margin-left: 0;
+    margin-bottom: -108px;
+}
+.visionPara p {
+    width: 341px;
+}
+.aboutMain {
+    height: 100%;
+    margin-bottom: -130px;
+}
+}
+
+/* 320 */
+@media (max-width:320px) {
+    .tryYosh {
+        padding: 0px 43px;
+    }
+    .homeRow {
+        margin-top: 36px;
+    }   
+    .home1 {
+        width: 285px;
+        margin-left: 3px;
+    } 
+    .yoshH1::before {
+        left: 73px;
+    }
+    .yoshPara{
+        width: 300px;
+    }    
+    .aboutImg {
+        width: 276px;
+        margin-top: -32px;
+        margin-left: 15px;
+
+    }
+    .B2BH1::before {
+        left: 75px;
+        width: 151px;
+    }
+    .b2bH5{
+        font-size:18px;
+    }
+    .b2bH5::before {
+        left: 56px;
+        width: 164px;
+    }
+    .knowMore1 {
+        padding: 3px 50px;
+        font-size: 18px;
+    }
+    .b2bH52::before {
+        left: 61px;
+    }
+    .box1 {
+    margin-left: 9px;
+    }
+    .moneyH1::before {
+        left: 50px;
+    }
+    .moneyH5 {
+        margin-top: -646px;        
+    font-size: 16px;
+
+    }
+    .referBtn {
+    padding: 4px 8px;
+    font-size: 16px;
+    margin-left: -43px;
+    }
+    .moneyImage2 {
+        width: 288px;
+        margin-top: 566px;
+        margin-left: -17px;
+
+    }
+    .moneyImage {
+        margin-top: -17px;
+        margin-left: -35px;
+        width: 324px;
+    }
+    .clientH1 {
+        font-size: 24px;
+        margin-top: -61px;
+        font-size: 20px;
+    }
+    .home6 {
+        width: 298px;
+        margin-left: -9px;
+        margin-top: -78px;
+    }
+    .msgBox {
+        margin-left: -7px;
+        width: 301px;
+    }
+    .clientDescription {
+        color: #707070;
+        margin-left: 81px;
+        font-size: 14px;
+        margin-top: -21px;
+    }
+    .clientName {
+        margin-left: 84px;
+    }
+    .clientSay {
+        width: 294px;
+        margin-left: 5px;
+
+    }
+    .educatedH1 {
+        font-size: 22px;
+    }
+    .educatedH1::before {
+        left: 67px;
+        top: 31px;
+        width: 172px;
+    }
+    .reffer-btn button {
+    padding: 7px 58px;
+}
+    .home7 {
+        width: 292px;
+        margin-top: -56px;
+    }
+    .home8Img {
+        margin-left: 0px;
+    }
+    .newsBtn {
+        background: #F9F5E5;
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+    .bookPara2 {
+        margin-left: 56px;
+        width: 219px;
+    }    
+    .newGirl {
+        margin-left: -46px;
+        width: 115px;
+    }    
+    .teamImg {
+        width: 292px;
+    }
+    /*About us page*/
+    .aboutCol{
+        font-size:14px;
+    }
+    .build {
+    width: 295px;
+    margin-left: 0px;
+}
+.journeyH1::before {
+    left: 87px;
+    top: 34px;
+}
+.journeyImage {
+    width: 245px;
+    margin-top: -6px;
+    margin-left: 30px;
+}
+.missionH1::before {
+    left: 91px;
+}
+.roket img {
+    margin-left: -1px;
+    width: 296px;
+}
+.visionH1::before {
+    left: 93px;
+}
+.statImge {
+    margin-left: -16px;
+    margin-bottom: -108px;
+    width: 292px;
+}
+.visionPara p {
+    width: 291px;
+}
+.vision {
+    height: 100%;
+    margin-bottom: -132px;
+}
+    
+}
